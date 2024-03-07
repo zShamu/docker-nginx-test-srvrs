@@ -1,7 +1,3 @@
-# docker-nginx-test-srvrs
-This repository is designed to assist in deploying two test web servers using Docker and Nginx. It sets up two nodes, and I have utilized it for experimenting with a load balancer.
-If you want to format the text for GitHub markdown, you can use the following template for a README file:
-
 # Deploy Two Web Servers With Docker
 
 ## Introduction
