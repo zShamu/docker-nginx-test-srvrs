@@ -2,7 +2,6 @@
 This repository is designed to assist in deploying two test web servers using Docker and Nginx. It sets up two nodes, and I have utilized it for experimenting with a load balancer.
 If you want to format the text for GitHub markdown, you can use the following template for a README file:
 
-```markdown
 # Deploy Two Web Servers With Docker
 
 ## Introduction
@@ -12,7 +11,7 @@ This repository provides a convenient way to deploy two web servers for testing 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/zShamu/docker-nginx-test-srvrs
+   git clone https://github.com/zShamu/docker-nginx-test-srvrs.git
    ```
 
 2. **Navigate to the Repository:**
@@ -54,7 +53,6 @@ This repository provides a convenient way to deploy two web servers for testing 
 
 - Make sure Docker and Docker Compose are installed on your system before running the deployment script.
 
-- Feel free to contribute or report issues on [GitHub](https://github.com/zShamu/docker-nginx-test-srvrs/).
+- Feel free to contribute or report issues on [GitHub](https://github.com/zShamu/docker-nginx-test-srvrs).
 
 Happy testing!
-```
