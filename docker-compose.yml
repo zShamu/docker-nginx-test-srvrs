@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  nginx1:
+    image: nginx
+    container_name: nginx_instance_1
+    ports:
+      - "8081:80"
+    volumes:
+      - ./file1.html:/usr/share/nginx/html/index.html
+    networks:
+      - local
+
+  nginx2:
+    image: nginx
+    container_name: nginx_instance_2
+    ports:
+      - "8082:80"
+    volumes:
+      - ./file2.html:/usr/share/nginx/html/index.html
+    networks:
+      - local
+
+networks:
+  local:
+    driver: bridge
